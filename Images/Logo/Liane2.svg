@@ -1,0 +1,21 @@
+<svg width="50" height="400" viewBox="0 0 50 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Liane principale -->
+  <path d="M25 0 C20 50, 30 100, 25 150 C20 200, 30 250, 25 300 C20 350, 30 400, 25 450" 
+        stroke="#f5e1a4" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Feuilles gauche -->
+  <path d="M20 30 C10 25, 5 40, 15 45 Z" fill="#f5e1a4"/>
+  <path d="M20 90 C10 85, 5 100, 15 105 Z" fill="#f5e1a4"/>
+  <path d="M20 150 C10 145, 5 160, 15 165 Z" fill="#f5e1a4"/>
+  <path d="M20 210 C10 205, 5 220, 15 225 Z" fill="#f5e1a4"/>
+  <path d="M20 270 C10 265, 5 280, 15 285 Z" fill="#f5e1a4"/>
+  <path d="M20 330 C10 325, 5 340, 15 345 Z" fill="#f5e1a4"/>
+
+  <!-- Feuilles droite -->
+  <path d="M30 60 C40 55, 45 70, 35 75 Z" fill="#f5e1a4"/>
+  <path d="M30 120 C40 115, 45 130, 35 135 Z" fill="#f5e1a4"/>
+  <path d="M30 180 C40 175, 45 190, 35 195 Z" fill="#f5e1a4"/>
+  <path d="M30 240 C40 235, 45 250, 35 255 Z" fill="#f5e1a4"/>
+  <path d="M30 300 C40 295, 45 310, 35 315 Z" fill="#f5e1a4"/>
+  <path d="M30 360 C40 355, 45 370, 35 375 Z" fill="#f5e1a4"/>
+</svg>

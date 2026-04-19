@@ -146,7 +146,6 @@ a {
   background: none;
   border: none;
   color: white;
-  cursor: pointer;
   height: 100%;  
   display: flex;           
   align-items: center;     
@@ -157,38 +156,6 @@ a {
   display: block;          /* supprime les espaces indésirables */
   height: 30px;            /* taille fixe */
   width: auto;
-}
-
-/* Dropdown langue */
-.lang-dropdown {
-  position: relative;
-}
-
-.lang-menu {
-  display: none;
-  position: absolute;
-  right: 0;
-  top: 40px;
-  background: white;
-  border-radius: 6px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  min-width: 150px;
-  z-index: 2000;
-}
-
-.lang-menu a {
-  display: block;
-  padding: 5px;
-  color: #333;
-  text-decoration: none;
-}
-
-.lang-menu a:hover {
-  background-color: var(--vert-clair);
-}
-
-.lang-menu.show {
-  display: block;
 }
 
 /*--------------------------*/
@@ -1212,7 +1179,7 @@ main {
 
 /* Bande horizontale centrée verticalement */
 .carte-grille::before {
-  top: 48.65%;
+  top: 50%;
   left: 0;
   width: 100%;
   height: 40px;

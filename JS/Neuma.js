@@ -1,25 +1,4 @@
 /*--------------------------*/
-/*MENU DEROULANT DE LANGUES*/
-/*--------------------------*/
-
-document.addEventListener('DOMContentLoaded', () => {
-
-  const langToggle = document.getElementById('langToggle');
-  const langMenu = document.getElementById('langMenu');
-
-  if (langToggle && langMenu) {
-    langToggle.addEventListener('click', function (e) {
-      e.stopPropagation();
-      langMenu.classList.toggle('show');
-    });
-
-    window.addEventListener('click', function () {
-      langMenu.classList.remove('show');
-    });
-  }
-})
-
-/*--------------------------*/
 /*BOUTON DE CONTACT FLOTTANT*/
 /*--------------------------*/
 

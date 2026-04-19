@@ -129,7 +129,7 @@ function injectCaptions() {
           ` : ""}
 
           ${data.lieux?.length ? `
-            <h3>Lieux</h3>
+            <h3>Places</h3>
             <div class="caption-block right">
               <div class="caption-text">
                 ${data.lieux.map(l => `<p>${l}</p>`).join("")}
@@ -139,7 +139,7 @@ function injectCaptions() {
           ` : ""}
 
           ${data.programme?.length ? `
-            <h3>Programme</h3>
+            <h3>Schedule</h3>
             <div class="caption-block left">
               <img width="100" height="100" src="https://img.icons8.com/external-photo3ideastudio-flat-photo3ideastudio/100/external-trekking-holiday-photo3ideastudio-flat-photo3ideastudio.png" />
               <div class="caption-text">
